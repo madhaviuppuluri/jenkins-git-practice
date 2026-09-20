@@ -1,0 +1,16 @@
+Development: Developers write or modify the application code in the local development environment.
+Commit: The source code is committed to a version control system such as Git, triggering the Jenkins pipeline.
+Build: Jenkins retrieves the latest code, compiles the application, and generates build artifacts.
+Test: Automated tests validate the application's functionality, quality, and stability.
+Stage: The validated build is deployed to a staging or QA environment for further verification.
+Deploy (Dev/QA): Jenkins deploys the application to the target development or QA environment.
+Production: After successful validation, the application is deployed to the production environment.
+Continuous Integration/Delivery: Jenkins automates the entire workflow from code commit to deployment, ensuring faster and more reliable software delivery.
+Key Features of Jenkins
+Automates Continuous Integration and Continuous Delivery pipelines.
+Supports Pipeline as Code using Jenkinsfile.
+Integrates with Git, Docker, Kubernetes, Maven, Selenium, AWS, and many other tools.
+Supports distributed builds across multiple agents.
+Runs on Windows, Linux, and macOS.
+Supports Java, Python, Node.js, .NET, and many other technologies.
+Offers thousands of plugins to extend functionality.
